@@ -7,7 +7,7 @@
     {% for image in site.data.static_files %}
     {% assign parts =  image.path | split:"/" %}
     {% assign path = image.path | uri_escape %}
-    {% assign url = "http://marktareshawty.com/gifs" | append: path %}
+    {% assign url = "http://marktareshawty.com/gifs/" | append: path %}
     {
       "url": "{{ url | json }}",
       "keywords": "{{ parts.first | replace:'-', ' ' }} {{ parts.last | replace:image.extname, '' | replace: '-', ' ' | replace: '_', ' ' }}"
