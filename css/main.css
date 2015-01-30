@@ -1,9 +1,10 @@
 /* @group main styles -------------------- */
 
 @import url( "normalize.css" );
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body{
-  font-family: "Myriad Pro", "Lucida Grande", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size:16px;
   line-height:1.5;
   background-color: #f8f8f8;
@@ -44,7 +45,7 @@ body{
 }
 
 .page-header a {
-  color: #bdf5da;
+  color: #71aed1;
   font-weight: bold; }
 
 .gif-listing {
@@ -100,11 +101,11 @@ body{
 
 /*Style individual gif links*/
 .gif-listing > ul > li > ul > li a {
-  color: #5d9379;
+  color: #3e7b9e;
   text-decoration: none; }
 
 .gif-listing > ul > li > ul > li a:hover {
-  color: #2a2f37;
+  color: #0b486b;
   text-decoration: underline; }
 
 /* @end main styles */
